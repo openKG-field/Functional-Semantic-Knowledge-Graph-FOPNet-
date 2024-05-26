@@ -1,25 +1,4 @@
 # Functional-Semantic-Knowledge-Graph-FOPNet-
-# Paper link
-- Please click on the paper link below to view the detailed paper, which can help you obtain more information and better understand our project
-- https://www.sciencedirect.com/science/article/pii/S1751157723000925
-- https://doi.org/10.1016/j.joi.2023.101467
-## Citation
-
-We have uploaded [papers] from this library（ [https://www.aclweb.org/anthology/2020.emnlp-demos.6/ ](https://www.sciencedirect.com/science/article/pii/S1751157723000925)）Officially published, if you have used our relevant content, please cite:
-```bibtex
-Hao Teng, Nan Wang, Hongyu Zhao, Yingtong Hu, Haitao Jin,
-Enhancing semantic text similarity with functional semantic knowledge (FOP) in patents,
-Journal of Informetrics,
-Volume 18, Issue 1,
-2024,
-101467,
-ISSN 1751-1577,
-https://doi.org/10.1016/j.joi.2023.101467.
-(https://www.sciencedirect.com/science/article/pii/S1751157723000925)
-Abstract: The semantic text similarity (STS) estimation between patents is a critical issue for the patent portfolio analysis. Current methods such as keywords, co-word analysis and even the Subject-Action-Object (SAO) algorithms, are not quite reasonable for the patent similarity calculation due to the lack of fine-grained semantic knowledge, “property-parameter” features and flexible “functional or non-functional” combinations. In the meanwhile, standardized similarity datasets are also unavailable. In this paper, we have proposed a new kind of functional semantic knowledge (Function-Object-Property, i.e., FOP) instead of SAO triples, which can contribute directly to enhance the patent similarity. Moreover, patent STS datasets, including the matching dataset and the ranking dataset, have firstly been processed and released as benchmarks for the comparative evaluation. Preliminary results have demonstrated that FOP-based methods are more appropriate in the STS tasks incorporated with IPC codes, weights’ assignments and patent pre-trained vectors. To be further, the deep interaction-based models with the averaged FOP embeddings are recommended to be one of the most optimal choices of effectively improving the semantic learning capability. Finally, a new patent similarity calculation framework is summarized and successfully applied in the patent retrieval, which highlight that the proposed methodology serves as a dominant power in diverse patented STS tasks.
-Keywords: Semantic text similarity (STS); Subject-action-object (SAO); Functional semantic knowledge (FOP); Bi-LSTM; Patent similarity; Pre-trained embedding
-}
-```
 # Project Overview
 
 This project is focused on patent-oriented semantic matching. Research and experiments were conducted on:
@@ -177,7 +156,27 @@ Main function: English vector dictionary.
    - `evaluate.py`: Calculate recall and metric results for deep learning
    - `graph.py`: DSSM network building diagram
 
-## Data Description
+# Paper link
+- Please click on the paper link below to view the detailed paper, which can help you obtain more information and better understand our project
+- https://www.sciencedirect.com/science/article/pii/S1751157723000925
+- https://doi.org/10.1016/j.joi.2023.101467
+## Citation
 
+We have uploaded [papers] from this library（ [https://www.aclweb.org/anthology/2020.emnlp-demos.6/ ](https://www.sciencedirect.com/science/article/pii/S1751157723000925)）Officially published, if you have used our relevant content, please cite:
+```bibtex
+Hao Teng, Nan Wang, Hongyu Zhao, Yingtong Hu, Haitao Jin,
+Enhancing semantic text similarity with functional semantic knowledge (FOP) in patents,
+Journal of Informetrics,
+Volume 18, Issue 1,
+2024,
+101467,
+ISSN 1751-1577,
+https://doi.org/10.1016/j.joi.2023.101467.
+(https://www.sciencedirect.com/science/article/pii/S1751157723000925)
+Abstract: The semantic text similarity (STS) estimation between patents is a critical issue for the patent portfolio analysis. Current methods such as keywords, co-word analysis and even the Subject-Action-Object (SAO) algorithms, are not quite reasonable for the patent similarity calculation due to the lack of fine-grained semantic knowledge, “property-parameter” features and flexible “functional or non-functional” combinations. In the meanwhile, standardized similarity datasets are also unavailable. In this paper, we have proposed a new kind of functional semantic knowledge (Function-Object-Property, i.e., FOP) instead of SAO triples, which can contribute directly to enhance the patent similarity. Moreover, patent STS datasets, including the matching dataset and the ranking dataset, have firstly been processed and released as benchmarks for the comparative evaluation. Preliminary results have demonstrated that FOP-based methods are more appropriate in the STS tasks incorporated with IPC codes, weights’ assignments and patent pre-trained vectors. To be further, the deep interaction-based models with the averaged FOP embeddings are recommended to be one of the most optimal choices of effectively improving the semantic learning capability. Finally, a new patent similarity calculation framework is summarized and successfully applied in the patent retrieval, which highlight that the proposed methodology serves as a dominant power in diverse patented STS tasks.
+Keywords: Semantic text similarity (STS); Subject-action-object (SAO); Functional semantic knowledge (FOP); Bi-LSTM; Patent similarity; Pre-trained embedding
+}
+```
+## Data Description
 Note: The data section only provides one thousand pairs of data for reference. Please contact the author for the complete version of the data. 
 - email:wzy03051241@163.com
