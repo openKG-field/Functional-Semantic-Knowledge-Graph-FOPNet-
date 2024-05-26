@@ -146,6 +146,8 @@ Main functions: Matching, calculating similarity. Data format: Patent number: FO
 
 - `vector.txt`
 Main function: English vector dictionary.
+Link：https://pan.baidu.com/s/16GPFPdHeeKGMx4alm7g1OA 
+code：1111
 
 ### Todolist
 
