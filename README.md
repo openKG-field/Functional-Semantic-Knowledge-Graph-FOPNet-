@@ -1,4 +1,6 @@
 # Functional-Semantic-Knowledge-Graph-FOPNet-
+# Paper link
+- https://www.sciencedirect.com/science/article/pii/S1751157723000925
 # Project Overview
 
 This project is focused on patent-oriented semantic matching. Research and experiments were conducted on:
