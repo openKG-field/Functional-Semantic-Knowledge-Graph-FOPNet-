@@ -179,4 +179,4 @@ Keywords: Semantic text similarity (STS); Subject-action-object (SAO); Functiona
 ```
 ## Data Description
 Note: The data section only provides one thousand pairs of data for reference. Please contact the author for the complete version of the data. 
-- email:wzy03051241@163.com
+- email: wzy03051241@163.com
